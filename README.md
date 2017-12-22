@@ -7,7 +7,7 @@ Arbitrage Tracker Project
 Introduction
 ------------
 
-Hey! Welcome to *Arbitrage Tracker Project*. We're making a web app that leverages the Unofficial Messenger API[^API] to create a *Word Cloud* of a Facebook Messenger thread's chat history for the day. Any contributions to the project are welcome and all will be reviewed. To make a pull request please consult the [Github Documentation][1].
+Hey! Welcome to *Arbitrage Tracker Project*. We're making a web app that leverages the [Unofficial Messenger API][api] to create a *Word Cloud* of a Facebook Messenger thread's chat history for the day. Any contributions to the project are welcome and all will be reviewed. To make a pull request please consult the [Github Documentation][1].
 
 > **Note:** Nothing below is written in stone, it just provides a solid, proven foundation for multiple developers of different skill levels to make impactful contributions to the project. Feel free to make suggestions.
 
@@ -57,8 +57,8 @@ This project will be using ES6 on the front and back ends for simplicity. We wil
 >**Note**: We will be using **Node v9.3.0** because of it's tested compatibility with **Yarn**. You can check your node version by opening a terminal window and running
 > ```node -v``` 
 >If you do not have this exact version, you can easily install it (if you have **nvm** ) by running
->```nvm install 9.3.0
-> nvm use 9.3.0``` 
+>```nvm install 9.3.0```
+>```nvm use 9.3.0``` 
 
 #### Version Control
 
@@ -95,7 +95,7 @@ yarn start
 ```
 
 
-  [^API]: [Unofficial Messenger API](https://github.com/Schmavery/facebook-chat-api#projects-using-this-api) is the only way to automate chat functionalities on a user account. We do this by emulating the browser. This means doing the exact same GET/POST requests and tricking Facebook into thinking we're accessing the website normally.
+  [api]: [Unofficial Messenger API](https://github.com/Schmavery/facebook-chat-api#projects-using-this-api) is the only way to automate chat functionalities on a user account. We do this by emulating the browser. This means doing the exact same GET/POST requests and tricking Facebook into thinking we're accessing the website normally.
 
 
   [1]: https://help.github.com/articles/creating-a-pull-request/

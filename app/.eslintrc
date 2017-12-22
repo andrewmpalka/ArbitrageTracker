@@ -1,0 +1,40 @@
+{
+    "parser": "babel-eslint",
+    "extends": [
+      "standard",
+      "standard-react",
+      "react-app"
+    ],
+    "plugins": [
+      "babel",
+      "react",
+      "promise"
+    ],
+    "env": {
+      "browser": true,
+      "es6": true,
+      "jest": true
+    },
+    "globals": {
+      "document": true,
+      "window": true,
+      "process": true,
+      "__DEV__": false,
+      "__PROD__": false,
+      "__DEBUG__": false,
+      "__COVERAGE__": false,
+      "__BASENAME__": false,
+      "__API__": false,
+      "test": false
+    },
+    "rules": {
+      "semi": [2, "never"],
+      "max-len": [2, 120, 2],
+      "generator-star-spacing": 1,
+      "jsx-quotes": [2, "prefer-single"],
+      "quote-props": ["error", "consistent-as-needed"],
+      "no-underscore-dangle": "error",
+      "react/jsx-filename-extension": "off"
+    }
+  }
+  
